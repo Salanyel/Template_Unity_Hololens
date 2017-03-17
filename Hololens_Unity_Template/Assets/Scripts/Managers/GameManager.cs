@@ -1,10 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-/// <summary>
-/// Singleton used to manage the game/application
-/// </summary>
-public class GameManager : MonoBehaviour {
+namespace Template_Hololens
+{
+    /// <summary>
+    /// Singleton used to manage the game/application
+    /// </summary>
+    public class GameManager : MonoBehaviour
+    {
 
+    }
 }
