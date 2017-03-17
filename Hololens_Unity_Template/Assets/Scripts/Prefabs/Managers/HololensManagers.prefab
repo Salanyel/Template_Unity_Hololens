@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 114914723136943914}
   - component: {fileID: 114215921872428692}
   - component: {fileID: 114421687708647626}
+  - component: {fileID: 114708375841533720}
   m_Layer: 0
   m_Name: HololensManagers
   m_TagString: HololensManager
@@ -100,6 +101,17 @@ MonoBehaviour:
   DirectionStrength: 0.83
   StabilityAverageDistanceWeight: 2
   StabilityVarianceWeight: 1
+--- !u!114 &114708375841533720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1923856883735972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d390af40eb1cc243a462092e5cda5fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114914723136943914
 MonoBehaviour:
   m_ObjectHideFlags: 1
